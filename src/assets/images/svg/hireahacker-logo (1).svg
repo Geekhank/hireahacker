@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" width="400" height="100">
+  <!-- Angle brackets -->
+  <path d="M 30 20 L 10 50 L 30 80" stroke="#00ff88" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 370 20 L 390 50 L 370 80" stroke="#00ff88" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Text -->
+  <text x="200" y="60" font-family="monospace" font-size="32" font-weight="bold" fill="#00ff88" text-anchor="middle">
+    HIRE A HACKER
+  </text>
+</svg>

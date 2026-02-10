@@ -1,0 +1,144 @@
+
+.app_main_section {
+  max-width: var(--main-maxwidth);
+  margin: auto;
+  padding: 6rem 2rem 4rem;
+  /* overflow: visible; */
+}
+
+
+.section_title {
+  color: var(--col-text-background-blue);
+  font-size: 3.8rem;
+  font-weight: 700;
+  margin-bottom: 4rem; 
+  line-height: 40px;
+}
+
+
+.section-main-title {
+  color: #1a202c;
+  font-size: 4.5rem; 
+  font-weight: 600;
+  text-align: left;
+  padding-bottom: 3.7rem; 
+}
+
+
+.section_sub_title {
+  color: var(--col-text-gray);
+  font-size: 2.4rem; 
+  line-height: 140%;
+  margin-top: 1.5rem;
+}
+
+
+
+.page_hero_header {
+  color: var(--col-text-background-blue);
+  font-size: 4.4rem; 
+  font-weight: 800;
+  margin-bottom: 1.6rem;
+}
+
+
+.page_hero_header span {
+  color: var(--col-text-gray);
+}
+
+
+.page_hero_sub_title {
+  color: #26123c;
+  font-size: 1.8rem; /* 18px */
+  font-weight: 600;
+}
+
+
+.container {
+  padding: 2rem 1rem;
+}
+
+
+.wrapper {
+  max-width: var(--main-maxwidth);
+  margin: 6rem auto; 
+  padding: 0 1rem;
+}
+
+
+@media (max-width: 1240px) {
+  .section_title {
+    font-size: 3.6rem; 
+  }
+
+  .section_sub_title {
+    font-size: 2.2rem; 
+    margin-top: 1.2rem;
+  }
+}
+
+
+@media (max-width: 990px) {
+  .section_title {
+    font-size: 3.2rem;
+  }
+
+  .section_sub_title {
+    font-size: 2rem; 
+    margin-top: 1rem;
+  }
+}
+
+
+@media (max-width: 850px) {
+  main.app_main_section {
+    padding: 4rem 2rem; 
+  }
+
+  .section-main-title {
+    font-size: 2rem;
+    text-align: center; 
+  }
+
+  .section_title {
+    font-size: 2rem; /* 32px → 20px */
+    font-weight: 700;
+    margin-bottom: 2rem; /* Reduced from 4rem */
+    line-height: 40px;
+  }
+
+  .page_hero_header {
+    font-size: 2.4rem; 
+    margin-bottom: 1.6rem;
+  }
+
+  .page_hero_sub_title {
+    font-size: 1.4rem; 
+  }
+}
+
+
+@media (max-width: 675px) {
+  main.app_main_section {
+    padding: 4rem 1.6rem;
+  }
+}
+
+
+@media (max-width: 640px) {
+  .section_title {
+    font-size: 2rem; 
+  }
+
+  .section_sub_title {
+    font-size: 1.8rem; /* 20px → 18px */
+    margin-top: 0.8rem;
+  }
+}
+
+
+@media (max-width: 480px) {
+  main.app_main_section {
+    padding: 2rem 1.2rem; 
+  }
+}

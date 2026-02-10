@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#0a0e27" stroke="#00ff88" stroke-width="2"/>
+  
+  <!-- Terminal window frame -->
+  <rect x="40" y="55" width="120" height="90" rx="4" fill="#1a1f3a" stroke="#00ff88" stroke-width="1.5"/>
+  
+  <!-- Terminal header bar -->
+  <rect x="40" y="55" width="120" height="12" rx="4" fill="#00ff88"/>
+  <circle cx="48" cy="61" r="2" fill="#0a0e27"/>
+  <circle cx="55" cy="61" r="2" fill="#0a0e27"/>
+  <circle cx="62" cy="61" r="2" fill="#0a0e27"/>
+  
+  <!-- Terminal prompt and code -->
+  <text x="48" y="82" font-family="monospace" font-size="8" fill="#00ff88" font-weight="bold">
+    &gt; whoami
+  </text>
+  <text x="48" y="95" font-family="monospace" font-size="7" fill="#66ffaa">
+    elite_hacker
+  </text>
+  
+  <!-- Cursor blink effect -->
+  <rect x="95" y="89" width="6" height="8" fill="#00ff88">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Binary code background pattern -->
+  <text x="48" y="110" font-family="monospace" font-size="6" fill="#00ff88" opacity="0.4">
+    10110101
+  </text>
+  <text x="48" y="120" font-family="monospace" font-size="6" fill="#00ff88" opacity="0.4">
+    01101011
+  </text>
+  <text x="48" y="130" font-family="monospace" font-size="6" fill="#00ff88" opacity="0.4">
+    11010110
+  </text>
+  
+  <!-- Decorative brackets -->
+  <path d="M 30 100 L 35 95 L 35 105 Z" fill="#00ff88" opacity="0.6"/>
+  <path d="M 170 100 L 165 95 L 165 105 Z" fill="#00ff88" opacity="0.6"/>
+  
+  <!-- Site name -->
+  <text x="100" y="170" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#00ff88" text-anchor="middle">
+    HIRE A HACKER
+  </text>
+  
+  <!-- Subtitle dot com -->
+  <text x="100" y="183" font-family="monospace" font-size="9" fill="#66ffaa" text-anchor="middle" opacity="0.8">
+    .com
+  </text>
+</svg>
