@@ -36,7 +36,7 @@ const OurServices: React.FC = () => {
   ];
 
   return (
-    <section className={styles.ourServicesSection}>
+    <section id="services" className={styles.ourServicesSection}>
       {/* Background effects */}
       <div className={styles.backgroundEffects}>
         <div className={styles.gridPattern}></div>

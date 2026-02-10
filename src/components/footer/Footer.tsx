@@ -17,9 +17,9 @@ function Footer() {
         <div className={styles.footerTopSection}>
           {/* About Section */}
           <div className={styles.footerColumn}>
-            <h3 className={styles.footerHeading}>About Sonihac</h3>
+            <h3 className={styles.footerHeading}>About hireahacker</h3>
             <p className={styles.footerText}>
-              Sonihac is a global cybersecurity and fund recovery service
+              hireahacker is a global cybersecurity and fund recovery service
               provider specializing in cryptocurrency recovery, digital
               forensics, and private investigation. We help victims of online
               fraud reclaim their assets through expert investigation and
@@ -57,7 +57,7 @@ function Footer() {
             <div className={styles.contactItem}>
               <span className={styles.contactIcon}>✉️</span>
               <a href="mailto:soniahelps20@gmail.com" className={styles.contactLink}>
-                soniahelps20@gmail.com
+                hireahacker@gmail.com
               </a>
             </div>
 
@@ -132,7 +132,7 @@ function Footer() {
           </div>
 
           <div className={styles.copyright}>
-            <p>&copy; 2025 Sonihac. All rights reserved. | Licensed Private Investigation Agency</p>
+            <p>&copy; 2025 hireahacker. All rights reserved. | Licensed Private Investigation Agency</p>
           </div>
         </div>
       </div>

@@ -16,7 +16,7 @@ const ContactUs: React.FC = () => {
   };
 
   return (
-    <section className={styles.contactSection}>
+    <section id='contact-us' className={styles.contactSection}>
       {/* Background effects */}
       <div className={styles.backgroundEffects}>
         <div className={styles.gridPattern}></div>

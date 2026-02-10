@@ -19,7 +19,7 @@ const HowItWorks: React.FC = () => {
   ];
 
   return (
-    <section className={styles.howItWorksSection}>
+    <section id="how-it-works" className={styles.howItWorksSection}>
       {/* Background effects */}
       <div className={styles.backgroundEffects}>
         <div className={styles.gridPattern}></div>

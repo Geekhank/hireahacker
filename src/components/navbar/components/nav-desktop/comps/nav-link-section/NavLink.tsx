@@ -1,4 +1,3 @@
-
 import type { INavLink } from "../../../../../../types";
 import styles from "./NavLink.module.css";
 import { NavLink, useLocation } from "react-router-dom";
@@ -13,7 +12,17 @@ function NavLinks({ allNavLinks }: IProps) {
   const handleScrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
     if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
+      // Get navbar height to offset the scroll
+      const navbarHeight = 88; // 8.8rem = 88px (adjust if your navbar height is different)
+      const sectionPosition = section.getBoundingClientRect().top;
+      const offsetPosition = sectionPosition + window.pageYOffset - navbarHeight;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+
+      // Update URL with hash
       window.history.pushState(null, "", `#${sectionId}`);
     }
   };

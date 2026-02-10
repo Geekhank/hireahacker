@@ -2,18 +2,41 @@ import { Link } from "react-router-dom";
 import styles from "../../nav-mobile/nav-links-section/NavLinks.module.css";
 import type { INavLink } from "../../../../../types";
 
-
-
 interface IProps {
   allNavLinks: INavLink[] | null;
+  closeMenu?: () => void; // Optional function to close mobile menu
 }
 
-function NavLinks({ allNavLinks }: IProps) {
+function NavLinks({ allNavLinks, closeMenu }: IProps) {
   // Function to handle smooth scrolling to a section
   const handleScrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
     if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
+      // Get navbar height to offset the scroll
+      const navbarHeight = 64; // Mobile navbar height in pixels (6.4rem = 64px)
+      const sectionPosition = section.getBoundingClientRect().top;
+      const offsetPosition = sectionPosition + window.pageYOffset - navbarHeight;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+
+      // Close mobile menu after clicking
+      if (closeMenu) {
+        closeMenu();
+      }
+    }
+  };
+
+  const handleLinkClick = (navLinkObj: INavLink) => {
+    if (navLinkObj.type === "section") {
+      handleScrollToSection(navLinkObj.path);
+    } else {
+      // Close menu when clicking route links too
+      if (closeMenu) {
+        closeMenu();
+      }
     }
   };
 
@@ -24,14 +47,16 @@ function NavLinks({ allNavLinks }: IProps) {
         <div
           key={navLinkObj.id}
           className={`${styles.mobile_nav_link_wrapper}`}
-          onClick={() => {
-            if (navLinkObj.type === "section") {
-              handleScrollToSection(navLinkObj.path); 
-            }
-          }}
+          onClick={() => handleLinkClick(navLinkObj)}
         >
           {navLinkObj.type === "section" ? (
-            <a className={styles.alink} href={`#${navLinkObj.path}`}>{navLinkObj.name}</a>
+            <a 
+              className={styles.alink} 
+              href={`#${navLinkObj.path}`}
+              onClick={(e) => e.preventDefault()}
+            >
+              {navLinkObj.name}
+            </a>
           ) : (
             <Link to={navLinkObj.path} className={styles.button}>
               {navLinkObj.name}
