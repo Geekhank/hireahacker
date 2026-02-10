@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Dark background -->
+  <rect width="64" height="64" fill="#0a0e1a" rx="8"/>
+  
+  <!-- Terminal/bracket icon -->
+  <path d="M 18 20 L 12 32 L 18 44" stroke="#00ff88" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 46 20 L 52 32 L 46 44" stroke="#00ff88" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Forward slash in middle -->
+  <line x1="28" y1="44" x2="36" y2="20" stroke="#00ff88" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Glow effect -->
+  <path d="M 18 20 L 12 32 L 18 44" stroke="#00ff88" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.3" filter="blur(2px)"/>
+  <path d="M 46 20 L 52 32 L 46 44" stroke="#00ff88" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.3" filter="blur(2px)"/>
+  <line x1="28" y1="44" x2="36" y2="20" stroke="#00ff88" stroke-width="3" stroke-linecap="round" opacity="0.3" filter="blur(2px)"/>
+</svg>
