@@ -75,7 +75,7 @@ const ContactUs: React.FC = () => {
 
             {/* Right Column - Contact Form */}
             <form 
-              action="https://formspree.io/f/xldnkybe" 
+              action="https://formspree.io/f/mykdkzay" 
               method="POST"
               className={styles.contactForm}
             >
