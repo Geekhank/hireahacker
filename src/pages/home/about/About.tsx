@@ -45,7 +45,7 @@ const About: React.FC = () => {
 
             <div className={styles.textContent}>
               <p>
-                hireahacker is a global service provider based in the United States.
+                hiregeehacker is a global service provider based in the United States.
                 We are a registered and licensed private investigation agency
                 committed to assisting victims of cryptocurrency and trading
                 platform scams through thorough investigation and disruption
@@ -59,14 +59,14 @@ const About: React.FC = () => {
                 Litecoin, Ethereum, and CFDs.
               </p>
               <p>
-                In addition to fund recovery, Sonihac provides services in email
+                In addition to fund recovery, hiregeehacker provides services in email
                 recovery, phone surveillance, gadget protection, and data
                 recovery—ensuring that individuals and organizations are protected
                 from digital threats and can regain access to compromised or lost
                 assets and information.
               </p>
               <p>
-                At Sonihac, our mission is to empower and protect our clients
+                At hiregeehacker, our mission is to empower and protect our clients
                 through expert recovery, advanced digital investigation, and
                 tailored security solutions.
               </p>
