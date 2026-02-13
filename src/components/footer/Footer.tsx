@@ -17,7 +17,7 @@ function Footer() {
         <div className={styles.footerTopSection}>
           {/* About Section */}
           <div className={styles.footerColumn}>
-            <h3 className={styles.footerHeading}>About hireahacker</h3>
+            <h3 className={styles.footerHeading}>About hiregeehacker</h3>
             <p className={styles.footerText}>
               hireahacker is a global cybersecurity and fund recovery service
               provider specializing in cryptocurrency recovery, digital

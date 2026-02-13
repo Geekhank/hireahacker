@@ -17,7 +17,7 @@ const RowSectionOne: React.FC = () => {
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.textContainer}>
-            <h2 className={styles.heading}>Hireahacker</h2>
+            <h2 className={styles.heading}>Hiregeehacker</h2>
             <span className={styles.subheading}>
               Consultants and Funds Recovery Experts
             </span>

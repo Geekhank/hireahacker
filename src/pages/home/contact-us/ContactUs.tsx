@@ -52,7 +52,7 @@ const ContactUs: React.FC = () => {
                   href="mailto:soniahelps20@gmail.com" 
                   className={styles.contactLink}
                 >
-                  soniahelps20@gmail.com
+                  Geekhankhacker@gmail.com
                 </a>
                 <div className={styles.cardGlow}></div>
               </div>
@@ -67,7 +67,7 @@ const ContactUs: React.FC = () => {
                   href="tel:+17576788036" 
                   className={styles.contactLink}
                 >
-                  +1 757 678 8036
+                  +1 213 7685189
                 </a>
                 <div className={styles.cardGlow}></div>
               </div>
