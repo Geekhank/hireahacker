@@ -15,7 +15,7 @@ const HowItWorks: React.FC = () => {
     'Experienced Hackers',
     'We are anonymous',
     'We do care about people\'s problems',
-    'We do not provide services to crime',
+    
   ];
 
   return (
