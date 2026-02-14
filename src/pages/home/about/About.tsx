@@ -45,7 +45,7 @@ const About: React.FC = () => {
 
             <div className={styles.textContent}>
               <p>
-                hiregeehacker is a global service provider based in the United States.
+                hiregeekhacker is a global service provider based in the United States.
                 We are a registered and licensed private investigation agency
                 committed to assisting victims of cryptocurrency and trading
                 platform scams through thorough investigation and disruption
@@ -72,7 +72,7 @@ const About: React.FC = () => {
               </p>
             </div>
 
-            <a href="/contact" className={styles.ctaButton}>
+            <a href="#contact" className={styles.ctaButton}>
               Contact Us
             </a>
           </div>
