@@ -64,7 +64,7 @@ function Footer() {
             <div className={styles.contactItem}>
               <span className={styles.contactIcon}>📞</span>
               <a href="tel:+17576788036" className={styles.contactLink}>
-                +1 757 678 8036
+                +1 213 768 5189
               </a>
             </div>
 
