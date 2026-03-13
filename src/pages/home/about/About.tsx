@@ -72,7 +72,7 @@ const About: React.FC = () => {
               </p>
             </div>
 
-            <a href="#contact" className={styles.ctaButton}>
+            <a href="#contact-us" className={styles.ctaButton}>
               Contact Us
             </a>
           </div>
