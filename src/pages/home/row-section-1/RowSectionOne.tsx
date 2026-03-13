@@ -22,7 +22,7 @@ const RowSectionOne: React.FC = () => {
               Consultants and Funds Recovery Experts
             </span>
           </div>
-          <a href="/contact" className={styles.ctaButton}>
+          <a href="#contact-us" className={styles.ctaButton}>
             File A Complaint
           </a>
         </div>
