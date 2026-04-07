@@ -28,7 +28,7 @@ function NavDesktop({ allNavLinks }: IProps) {
     
         <PrimaryButton
           placeholder="Get a qoute"
-          onClick={() => (window.location.href = "/signup")}
+          onClick={() => (window.location.href = "/")}
           className={styles.create_account_button_wrapper}
         />
       </div>
