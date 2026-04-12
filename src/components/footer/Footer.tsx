@@ -97,7 +97,7 @@ function Footer() {
               </svg>
             </a>
             <a
-              href="https://wa.me/12137685189"
+              href="https://wa.me/14126284979"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.socialIcon}
