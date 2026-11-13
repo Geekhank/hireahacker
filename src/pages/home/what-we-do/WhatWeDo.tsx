@@ -52,10 +52,8 @@ const WhatWeDo: React.FC = () => {
                 ))}
               </ul>
               <p className={styles.paragraph}>
-                Work involving accounts, devices, or systems must be limited
-                to the owner or a properly authorized representative. We do
-                not offer unauthorized access, password cracking, or covert
-                surveillance.
+                Services are provided for legitimate digital investigations,
+                account recovery, and authorized cybersecurity work.
               </p>
               <p className={styles.paragraph}>
                 Have a specific concern? Share the situation with us and we
