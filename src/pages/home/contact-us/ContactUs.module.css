@@ -488,3 +488,5 @@ textarea.formControl {
 .submitButton{background:#78b7ff;color:#071526;border:1px solid #78b7ff;border-radius:7px;box-shadow:none;text-shadow:none;font-family:"DM Sans",sans-serif}
 .submitButton:hover{background:#a0ceff;box-shadow:none}
 .buttonShine{display:none}
+
+.formControl option{background:#0b192a;color:#edf4fc}.formNote{margin:0;color:#91a7c0;font:400 12px/1.6 "DM Sans",sans-serif}
