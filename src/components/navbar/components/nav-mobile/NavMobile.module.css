@@ -324,3 +324,7 @@
 .mobile_nav_links_container a:hover,.mobile_nav_links_container a:active{color:#9ccaff;background:rgba(120,183,255,.08);text-shadow:none}
 .waitlist_button_wrapper button{background:#78b7ff!important;color:#071526!important;border:1px solid #78b7ff!important;border-radius:7px!important;box-shadow:none!important;text-shadow:none!important;font-family:"DM Sans",sans-serif!important}
 .waitlist_button_wrapper button::before{display:none}
+
+
+/* Larger mobile header logo */
+.mobile__company_logo_img { height: 3.8rem; width: auto; }
