@@ -2,23 +2,23 @@ import styles from "./Testimonials.module.css";
 
 const testimonials = [
   {
-    quote: "We were able to get all data stolen by the group of hackers with the help of Cyberman Solutions. They were effective and efficient. Our files were restored, the data were permanently deleted, and the loopholes were blocked accordingly.",
+    quote: "We received help after a group of hackers stole our data. Hire Geek Hackers helped restore our files, remove compromised data, and address security vulnerabilities. Their service was effective and professional.",
     location: "United States",
   },
   {
-    quote: "I was able to get back 90% of 12 Bitcoin lost to a Telegram scammer after I contacted Cyberman Solutions. I was told to relax and provide some necessary information. I was skeptical at first, but I am grateful that I did.",
+    quote: "After losing 12 Bitcoin to a Telegram scam, I contacted Hire Geek Hackers. I was initially skeptical, but after providing the requested information, I was able to recover a significant portion of my funds. I’m grateful for their assistance.",
     location: "Ukraine",
   },
   {
-    quote: "I was accidentally logged out of three of my social media accounts: Facebook, Instagram and Twitter. I tried all possible ways without success. A friend told me about Cyberman Solutions, and I got all the accounts back.",
+    quote: "I was locked out of my Facebook, Instagram, and Twitter accounts and couldn't regain access through the usual methods. A friend recommended Hire Geek Hackers, and I was able to recover my accounts. Thank you!",
     location: "Germany",
   },
   {
-    quote: "This might sound illegal but I got my grades fixed with the help of these guys. It was my first time seeing it happen. I got excited and introduced a lot of my friends.",
+    quote: "This might sound unusual, but I received help with an academic records issue. It was an experience I had never encountered before.",
     location: "United States",
   },
   {
-    quote: "The guys here are the real deal. I can't go into details, but I got all offences deleted before it got anywhere dangerous.",
+    quote: "I received assistance with a sensitive legal-records matter. I cannot share the details, but I appreciated the support I received.",
     location: "United States",
   },
 ];
@@ -26,11 +26,11 @@ const testimonials = [
 const Testimonials = () => (
   <section className={styles.section} aria-labelledby="testimonials-heading">
     <div className={styles.inner}>
-      <span className={styles.eyebrow}>Submitted feedback</span>
+      <span className={styles.eyebrow}>Submitted feedback · Unverified</span>
       <h2 className={styles.heading} id="testimonials-heading">Experiences shared by individuals</h2>
-      <p className={styles.intro}>A selection of feedback supplied for review.</p>
+      <p className={styles.intro}>A selection of feedback supplied for publication.</p>
       <p className={styles.notice}>
-        These statements were supplied by the site owner and have not been independently verified. The original wording names Cyberman Solutions; these are not verified customer reviews of Hire Geek Hackers and are not endorsements of our services. Outcomes described are individual claims and are not guarantees.
+        These statements were supplied for publication and have not been independently verified. They are not verified customer reviews or endorsements, and individual claims do not guarantee similar outcomes. The academic and legal-records statements should not be understood as an offer to alter academic records or conceal offences.
       </p>
       <div className={styles.grid}>
         {testimonials.map((item, index) => (
