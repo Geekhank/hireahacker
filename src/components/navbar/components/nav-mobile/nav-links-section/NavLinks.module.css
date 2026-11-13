@@ -3,3 +3,7 @@ a{
   color: #006D77 !important; 
   font-weight: 400; 
 }
+
+
+.mobile_nav_link_wrapper a{background:transparent!important;color:#dce8f6!important;font-family:"DM Sans",sans-serif;font-weight:600}
+.mobile_nav_link_wrapper a:hover,.mobile_nav_link_wrapper a:focus{background:rgba(120,183,255,.08)!important;color:#9bcaff!important}
