@@ -324,3 +324,20 @@
     transform: scale(1.1);
   }
 }
+
+/* Professional dark cybersecurity theme */
+.ourServicesSection{background:#081321;color:#edf4fc}
+.gridPattern{background-image:linear-gradient(rgba(125,170,220,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(125,170,220,.035) 1px,transparent 1px)}
+.glowOrb1,.glowOrb2{background:radial-gradient(circle,rgba(55,126,202,.12),transparent 70%)}
+.heading,.serviceTitle{font-family:"DM Sans",sans-serif;text-shadow:none}
+.heading{font-size:clamp(28px,3vw,40px);letter-spacing:-.04em}
+.accentLine{background:#78b7ff;box-shadow:none}
+.serviceCard{background:rgba(16,34,55,.72);border:1px solid rgba(137,177,222,.16);border-radius:12px;box-shadow:0 16px 36px rgba(0,0,0,.12);cursor:default}
+.serviceCard:hover{border-color:rgba(120,183,255,.45);background:rgba(20,42,67,.9);box-shadow:0 16px 36px rgba(0,0,0,.2);transform:translateY(-3px)}
+.iconContainer{background:rgba(120,183,255,.1);border:1px solid rgba(120,183,255,.25);border-radius:9px}
+.icon{color:#9bcaff;filter:none;font-size:24px}
+.iconGlow{background:radial-gradient(circle,rgba(80,145,210,.15),transparent 70%)}
+.serviceTitle{color:#eaf3ff;font-size:16px;letter-spacing:-.02em}
+.serviceDescription{font-family:"DM Sans",sans-serif;color:#aebed1;font-size:14px;line-height:1.7}
+.serviceCard:hover .serviceTitle,.serviceCard:hover .serviceDescription{color:inherit;text-shadow:none}
+.cardBorder{display:none}
