@@ -27,8 +27,8 @@ function NavDesktop({ allNavLinks }: IProps) {
       <div className={styles.navbar__action_button_section}>
     
         <PrimaryButton
-          placeholder="Get a qoute"
-          onClick={() => (window.location.href = "/")}
+          placeholder="Contact our team"
+          onClick={() => (window.location.href = "/contact-us")}
           className={styles.create_account_button_wrapper}
         />
       </div>
