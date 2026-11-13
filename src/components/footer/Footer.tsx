@@ -68,6 +68,9 @@ function Footer() {
             </div>
 
             <div className={styles.legalLinks}>
+              <Link to="/resources" className={styles.legalLink}>
+                Digital Investigation Resources
+              </Link>
               <Link to="/privacy-policy" className={styles.legalLink}>
                 Privacy Policy
               </Link>
