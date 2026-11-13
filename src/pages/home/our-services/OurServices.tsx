@@ -37,6 +37,11 @@ const services = [
     title: "Consensual Phone Monitoring",
     description: "Transparent device-monitoring setup and digital safety guidance for individuals and couples.",
   },
+  {
+    icon: "♡",
+    title: "Cheating Spouse Investigation Support",
+    description: "Discreet guidance for documenting concerns, reviewing information you are legally authorized to access, and organizing digital evidence. We do not access private accounts, intercept communications, or track someone without authorization.",
+  },
 ];
 
 const OurServices: React.FC = () => {
