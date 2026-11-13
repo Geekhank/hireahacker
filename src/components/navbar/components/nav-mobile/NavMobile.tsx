@@ -78,8 +78,8 @@ function NavMobile({ allNavLinks }: IProps) {
 
             {/* create account */}
             <PrimaryButton
-              placeholder="Get a qoute"
-              onClick={() => (window.location.href = "/")}
+              placeholder="Contact our team"
+              onClick={() => (window.location.href = "/contact-us")}
               className={styles.waitlist_button_wrapper}
             />
           </div>
