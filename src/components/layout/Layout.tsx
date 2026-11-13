@@ -4,6 +4,7 @@ import styles from "./Layout.module.css";
 import { useLocation } from "react-router-dom";
 import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
+import FloatingWhatsApp from "../floating-whatsapp/FloatingWhatsApp";
 
 
 
@@ -41,6 +42,7 @@ function Layout({ children }: IProps) {
 
       {/* Footer */}
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 }
