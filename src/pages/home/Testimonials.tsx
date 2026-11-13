@@ -13,6 +13,14 @@ const testimonials = [
     quote: "I was accidentally logged out of three of my social media accounts: Facebook, Instagram and Twitter. I tried all possible ways without success. A friend told me about Cyberman Solutions, and I got all the accounts back.",
     location: "Germany",
   },
+  {
+    quote: "This might sound illegal but I got my grades fixed with the help of these guys. It was my first time seeing it happen. I got excited and introduced a lot of my friends.",
+    location: "United States",
+  },
+  {
+    quote: "The guys here are the real deal. I can't go into details, but I got all offences deleted before it got anywhere dangerous.",
+    location: "United States",
+  },
 ];
 
 const Testimonials = () => (
