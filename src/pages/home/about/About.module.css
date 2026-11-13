@@ -339,3 +339,21 @@
     transform: none;
   }
 }
+
+/* Professional dark cybersecurity theme */
+.aboutSection{background:#081321;color:#edf4fc}
+.gridOverlay{background-image:linear-gradient(rgba(125,170,220,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(125,170,220,.035) 1px,transparent 1px)}
+.glowEffect1{background:radial-gradient(circle,rgba(55,126,202,.13),transparent 70%)}
+.glowEffect2{background:radial-gradient(circle,rgba(48,103,164,.12),transparent 70%)}
+.heading,.featureTitle{font-family:"DM Sans",sans-serif;text-shadow:none}
+.heading{font-size:clamp(28px,3vw,40px);letter-spacing:-.04em}
+.accentLine{background:#78b7ff;box-shadow:none}
+.textContent{font-family:"DM Sans",sans-serif;color:#b8c7d9;font-size:15px;line-height:1.85}
+.featureCard{background:rgba(16,34,55,.72);border:1px solid rgba(137,177,222,.16);border-radius:12px;box-shadow:0 16px 36px rgba(0,0,0,.12)}
+.featureCard:hover{border-color:rgba(120,183,255,.45);box-shadow:0 16px 36px rgba(0,0,0,.2)}
+.featureIcon{color:#8ec5ff;filter:none;font-size:30px}
+.featureTitle{color:#eaf3ff;font-size:15px;text-shadow:none}
+.featureDescription{font-family:"DM Sans",sans-serif;color:#aebed1;font-size:13px;line-height:1.65}
+.cardGlow{background:radial-gradient(circle,rgba(80,145,210,.12),transparent 55%)}
+.ctaButton{background:#78b7ff;color:#071526;border:1px solid #78b7ff;border-radius:7px;box-shadow:none;text-shadow:none;font-family:"DM Sans",sans-serif;letter-spacing:0;text-transform:none}
+.ctaButton:hover{background:#a0ceff;box-shadow:none}
