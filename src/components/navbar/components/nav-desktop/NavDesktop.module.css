@@ -218,3 +218,8 @@
 .create_account_button_wrapper button{background:#78b7ff!important;color:#071526!important;border:1px solid #78b7ff!important;border-radius:7px!important;box-shadow:none!important;text-shadow:none!important;font-family:"DM Sans",sans-serif!important;letter-spacing:0!important}
 .create_account_button_wrapper button:hover{background:#a0ceff!important;border-color:#a0ceff!important;box-shadow:none!important;text-shadow:none!important}
 .create_account_button_wrapper button::before{display:none}
+
+
+/* Larger, more prominent header logo */
+.company_logo_wrapper img { height: 4.4rem; width: auto; }
+.company_logo_wrapper { transform-origin: left center; }
