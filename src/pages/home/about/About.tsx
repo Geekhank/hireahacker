@@ -1,88 +1,57 @@
-import React from 'react';
-import styles from './About.module.css';
+import React from "react";
+import styles from "./About.module.css";
+
+const features = [
+  { icon: "◎", title: "Client-focused", description: "A clear understanding of each client's situation and priorities." },
+  { icon: "◇", title: "Privacy-conscious", description: "Careful handling of sensitive information throughout an engagement." },
+  { icon: "⌁", title: "Evidence-led", description: "Practical analysis grounded in the information available." },
+  { icon: "↗", title: "Clear communication", description: "Straightforward explanations of scope, process, and limitations." },
+];
 
 const About: React.FC = () => {
-  const features = [
-    {
-      icon: '📋',
-      title: 'Top Priority',
-      description: 'We consider our clients our Top Priority.',
-    },
-    {
-      icon: '🔐',
-      title: '100% TRUSTED',
-      description: 'Our Professional Consultation and Recovery Company is Aware of the Fact.',
-    },
-    {
-      icon: '📡',
-      title: '24/7 SUPPORT TEAM',
-      description: 'We Are Available With Our Hacking and Recovery Services Online 24/7.',
-    },
-    {
-      icon: '🛡️',
-      title: 'PROFESSIONAL SERVICES',
-      description: 'COMPREHENSIVE PROFESSIONAL SERVICES - A Band of Freelance Hackers.',
-    },
-  ];
-
   return (
     <section id="about" className={styles.aboutSection}>
-      {/* Background effects */}
-      <div className={styles.backgroundEffects}>
+      <div className={styles.backgroundEffects} aria-hidden="true">
         <div className={styles.gridOverlay}></div>
         <div className={styles.glowEffect1}></div>
         <div className={styles.glowEffect2}></div>
       </div>
-
       <div className={styles.container}>
         <div className={styles.contentGrid}>
-          {/* Left column - Main content */}
           <div className={styles.mainContent}>
             <div className={styles.header}>
-              <h1 className={styles.heading}>About Us</h1>
+              <h2 className={styles.heading}>About Hiregeekhacker</h2>
               <span className={styles.accentLine}></span>
             </div>
-
             <div className={styles.textContent}>
               <p>
-                hiregeekhacker is a global service provider based in the United States.
-                We are a registered and licensed private investigation agency
-                committed to assisting victims of cryptocurrency and trading
-                platform scams through thorough investigation and disruption
-                operations.
+                Hiregeekhacker provides digital investigation and cybersecurity
+                support for people and organizations dealing with online fraud,
+                compromised information, and other digital concerns.
               </p>
               <p>
-                Our core expertise lies in recovering funds lost to internet
-                fraud, including scams involving Binary Options, Romance schemes,
-                Email fraud, and other online deceptions. We specialize in
-                retrieving stolen Bitcoin and other cryptocurrencies such as
-                Litecoin, Ethereum, and CFDs.
+                Our areas of focus include digital forensics, online fraud
+                research, cryptocurrency transaction tracing, data recovery,
+                and practical account and device security guidance.
               </p>
               <p>
-                In addition to fund recovery, hiregeehacker provides services in email
-                recovery, phone surveillance, gadget protection, and data
-                recovery—ensuring that individuals and organizations are protected
-                from digital threats and can regain access to compromised or lost
-                assets and information.
+                We believe clients deserve a clear explanation of what can be
+                investigated, what evidence is needed, and what limitations may
+                apply. Any work involving an account, device, or system must be
+                properly authorized.
               </p>
               <p>
-                At hiregeehacker, our mission is to empower and protect our clients
-                through expert recovery, advanced digital investigation, and
-                tailored security solutions.
+                We aim to approach every enquiry with discretion, realistic
+                expectations, and a focus on useful next steps.
               </p>
             </div>
-
-            <a href="#contact-us" className={styles.ctaButton}>
-              Contact Us
-            </a>
+            <a href="#contact-us" className={styles.ctaButton}>Contact our team</a>
           </div>
-
-          {/* Right column - Feature cards */}
           <div className={styles.featuresGrid}>
-            {features.map((feature, index) => (
-              <div key={index} className={styles.featureCard} style={{ animationDelay: `${index * 0.1}s` }}>
+            {features.map((feature) => (
+              <div key={feature.title} className={styles.featureCard}>
                 <div className={styles.featureIcon}>{feature.icon}</div>
-                <h5 className={styles.featureTitle}>{feature.title}</h5>
+                <h3 className={styles.featureTitle}>{feature.title}</h3>
                 <p className={styles.featureDescription}>{feature.description}</p>
                 <div className={styles.cardGlow}></div>
               </div>
