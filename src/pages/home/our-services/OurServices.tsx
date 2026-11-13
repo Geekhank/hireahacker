@@ -32,6 +32,11 @@ const services = [
     title: "Device Security Review",
     description: "Practical review of device security and privacy settings to help identify potential risks and improve protection.",
   },
+  {
+    icon: "◉",
+    title: "Consensual Phone Monitoring",
+    description: "Transparent device-monitoring setup and digital safety guidance for individuals and couples, with the informed consent of everyone involved.",
+  },
 ];
 
 const OurServices: React.FC = () => {
