@@ -8,6 +8,7 @@ import Home from "./pages/home/Home";
 import Layout from "./components/layout/Layout";
 import Contact from "./pages/contact/Contact";
 import LegalPages from "./pages/legal/LegalPages";
+import Resources from "./pages/resources/Resources";
 
 const AppRoutes = () => {
   return (
@@ -17,6 +18,7 @@ const AppRoutes = () => {
       <Route path="/privacy-policy" element={<Layout><LegalPages page="privacy" /></Layout>} />
       <Route path="/terms-and-conditions" element={<Layout><LegalPages page="terms" /></Layout>} />
       <Route path="/delete-data" element={<Layout><LegalPages page="delete" /></Layout>} />
+      <Route path="/resources" element={<Layout><Resources /></Layout>} />
       {/*
       <Route path="/privacy-policy" element={<Layout><PrivacyPolicy /></Layout>} />
       <Route path="/terms-and-conditions" element={<Layout><TermsAndConditions /></Layout>} />
