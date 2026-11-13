@@ -293,3 +293,21 @@
     transform: scale(1.1);
   }
 }
+
+/* Professional dark cybersecurity theme */
+.whatWeDoSection{background:#0b192a;color:#edf4fc}
+.gridPattern{background-image:linear-gradient(rgba(125,170,220,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(125,170,220,.035) 1px,transparent 1px)}
+.glowOrb1,.glowOrb2{background:radial-gradient(circle,rgba(55,126,202,.12),transparent 70%)}
+.heading,.columnHeading{font-family:"DM Sans",sans-serif;text-shadow:none}
+.heading{font-size:clamp(28px,3vw,40px);letter-spacing:-.04em}
+.columnHeading{color:#a7d0ff;font-size:20px;letter-spacing:-.02em;text-transform:none}
+.accentLine{background:#78b7ff;box-shadow:none}
+.contentGrid{font-family:"DM Sans",sans-serif;color:#b8c7d9}
+.paragraph{font-family:"DM Sans",sans-serif;font-size:15px;line-height:1.85;color:#b8c7d9;font-style:normal}
+.serviceItem{font-family:"DM Sans",sans-serif;color:#d4e0ee;font-size:15px}
+.serviceItem:hover{color:#9ccaff;text-shadow:none}
+.serviceItem::before{background:linear-gradient(90deg,#78b7ff,transparent)}
+.checkIcon{background:rgba(120,183,255,.16);color:#9bcaff;box-shadow:none;border:1px solid rgba(120,183,255,.28)}
+.serviceItem:hover .checkIcon{box-shadow:none;transform:none}
+.ctaButton{display:inline-flex;align-items:center;justify-content:center;width:fit-content;min-height:46px;padding:0 20px;border-radius:7px;background:#78b7ff;color:#071526;text-decoration:none;font:700 14px "DM Sans",sans-serif}
+.ctaButton:hover{background:#a0ceff}
