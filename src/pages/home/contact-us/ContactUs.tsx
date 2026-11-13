@@ -52,7 +52,7 @@ const ContactUs: React.FC = () => {
                   href="mailto:geekhankhacker@gmail.com" 
                   className={styles.contactLink}
                 >
-                  Geekhankhacker@gmail.com
+                  GEEKHANKHACKER@GMAIL.COM
                 </a>
                 <div className={styles.cardGlow}></div>
               </div>
@@ -60,7 +60,7 @@ const ContactUs: React.FC = () => {
               {/* Phone Card */}
               <div className={styles.contactCard}>
                 <div className={styles.iconCircle}>
-                  <span className={styles.icon}>📞</span>
+                  <span className={styles.icon}>💬</span>
                 </div>
                 <h4 className={styles.contactTitle}>WhatsApp Us</h4>
                 <a 
