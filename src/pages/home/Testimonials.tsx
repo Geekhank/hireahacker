@@ -29,9 +29,6 @@ const Testimonials = () => (
       <span className={styles.eyebrow}>Submitted feedback · Unverified</span>
       <h2 className={styles.heading} id="testimonials-heading">Experiences shared by individuals</h2>
       <p className={styles.intro}>A selection of feedback supplied for publication.</p>
-      <p className={styles.notice}>
-        These statements were supplied for publication and have not been independently verified. They are not verified customer reviews or endorsements, and individual claims do not guarantee similar outcomes. The academic and legal-records statements should not be understood as an offer to alter academic records or conceal offences.
-      </p>
       <div className={styles.grid}>
         {testimonials.map((item, index) => (
           <article className={styles.card} key={index}>
