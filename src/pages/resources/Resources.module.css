@@ -1,0 +1,29 @@
+.page {
+  min-height: 70vh;
+  padding: 7rem 1.25rem 5rem;
+  color: #e8edf7;
+  background: radial-gradient(circle at 15% 0%, rgba(45, 105, 170, .16), transparent 34%), linear-gradient(180deg, #0a1220 0%, #050a14 100%);
+}
+.container { max-width: 900px; margin: 0 auto; }
+.eyebrow { color: #63a9ff; font-size: .75rem; font-weight: 800; letter-spacing: .16em; }
+.container h1 { color: #fff; font-size: clamp(2.1rem, 5vw, 3.4rem); line-height: 1.12; margin: .6rem 0 1rem; }
+.lead { max-width: 720px; color: #b9c8dc; font-size: 1.12rem; line-height: 1.8; }
+.contents, .article, .contact { border: 1px solid rgba(112,153,204,.2); border-radius: 16px; background: rgba(12,22,38,.78); }
+.contents { display: grid; gap: .8rem; margin: 2rem 0; padding: 1.5rem; }
+.contents strong { color: #fff; }
+.contents a { color: #8fc2ff; text-decoration: none; line-height: 1.5; }
+.contents a:hover { text-decoration: underline; }
+.article { margin: 1.5rem 0; padding: clamp(1.25rem, 4vw, 2.25rem); scroll-margin-top: 2rem; }
+.category { color: #63a9ff !important; font-size: .72rem !important; font-weight: 800; letter-spacing: .14em; }
+.article h2 { color: #fff; font-size: clamp(1.45rem, 3vw, 2rem); line-height: 1.25; margin: .5rem 0 1rem; }
+.article h3 { color: #9bc9ff; font-size: 1.08rem; margin: 1.6rem 0 .4rem; }
+.article p { color: #c4cede; font-size: 1rem; line-height: 1.85; white-space: pre-line; }
+.article .intro { color: #d9e4f2; font-size: 1.05rem; }
+.takeaway { border-left: 3px solid #438fdf; padding: .8rem 1rem; background: rgba(62,137,211,.08); }
+.contact { margin-top: 2rem; padding: 1.75rem; }
+.contact h2 { color: #fff; margin-top: 0; }
+.contact p, .disclaimer { color: #b9c8dc; line-height: 1.8; }
+.contact a { display: inline-block; margin-top: .5rem; color: #fff; background: #236bb5; padding: .8rem 1.1rem; border-radius: 8px; text-decoration: none; font-weight: 700; }
+.contact a:hover { background: #3185dc; }
+.disclaimer { font-size: .85rem; margin-top: 1.5rem; }
+@media (max-width: 600px) { .page { padding: 5rem .85rem 3rem; } }
