@@ -516,3 +516,54 @@
     transform: scale(1.1);
   }
 }
+
+/* Refined section background: deep navy with subtle blue illumination */
+.howItWorksSection {
+  background:
+    radial-gradient(ellipse at 12% 18%, rgba(67, 135, 210, 0.16) 0%, transparent 42%),
+    radial-gradient(ellipse at 88% 82%, rgba(52, 105, 170, 0.13) 0%, transparent 40%),
+    linear-gradient(135deg, #0b1728 0%, #0a1220 48%, #101d30 100%);
+}
+.gridPattern {
+  background-image:
+    linear-gradient(rgba(120, 183, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(120, 183, 255, 0.035) 1px, transparent 1px);
+  opacity: 0.22;
+  animation: none;
+}
+.scanlineEffect { display: none; }
+.glowOrb1 {
+  background: radial-gradient(circle, rgba(83, 153, 230, 0.13) 0%, transparent 70%);
+  animation: none;
+}
+.glowOrb2 {
+  background: radial-gradient(circle, rgba(65, 112, 180, 0.12) 0%, transparent 70%);
+  animation: none;
+}
+.heading { text-shadow: 0 0 24px rgba(120, 183, 255, 0.18); }
+.accentLine {
+  background: linear-gradient(90deg, #78b7ff, rgba(120, 183, 255, 0.22));
+  box-shadow: 0 0 14px rgba(120, 183, 255, 0.22);
+}
+.columnHeading {
+  color: #9bcaff;
+  text-shadow: none;
+}
+.checkIcon {
+  color: #071526;
+  background: #78b7ff;
+  box-shadow: 0 0 12px rgba(120, 183, 255, 0.2);
+}
+.serviceItem:hover {
+  color: #a9d2ff;
+  text-shadow: none;
+}
+.serviceItem::before {
+  background: linear-gradient(90deg, #78b7ff, transparent);
+}
+.serviceItem:hover .checkIcon {
+  box-shadow: 0 0 16px rgba(120, 183, 255, 0.35);
+}
+@media (prefers-reduced-motion: reduce) {
+  .gridPattern, .scanlineEffect, .glowOrb1, .glowOrb2 { animation: none; }
+}
