@@ -33,8 +33,9 @@ const RowSectionOne: React.FC = () => {
             Digital investigation, cybersecurity support, and recovery guidance
             for individuals and organizations facing online threats and fraud.
           </p>
+          <p className={styles.contactPrompt}>Need help with a digital investigation? Contact our team for an initial discussion.</p>
           <div className={styles.actions}>
-            <a href="#contact-us" className={styles.ctaButton}>Discuss your case <span aria-hidden="true">→</span></a>
+            <a href="#contact-us" className={styles.ctaButton}>Contact our team <span aria-hidden="true">→</span></a>
             <a href="#services" className={styles.secondaryButton}>Explore services</a>
           </div>
           <p className={styles.trustNote}>Private conversations. Clear scope. Authorized work.</p>
