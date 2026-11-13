@@ -373,3 +373,21 @@
     transform: none;
   }
 }
+
+/* Refined footer styling */
+.footerSection{background:#050d18;color:#eaf2fc}
+.gridPattern{background-image:linear-gradient(rgba(125,170,220,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(125,170,220,.03) 1px,transparent 1px)}
+.glowOrb{background:radial-gradient(ellipse,rgba(55,126,202,.12),transparent 70%)}
+.hrline{background:linear-gradient(90deg,transparent,rgba(120,183,255,.25),transparent);box-shadow:none}
+.footerHeading{font-family:"DM Sans",sans-serif;color:#eaf3ff;text-shadow:none;font-size:16px}
+.footerText,.footerLink,.contactLink,.copyright{font-family:"DM Sans",sans-serif}
+.footerText{color:#9fb0c5;font-size:14px;line-height:1.8}
+.footerLink,.contactLink{color:#c5d4e6;font-size:14px}
+.linkIcon{color:#78b7ff}
+.footerLink:hover,.contactLink:hover,.legalLink:hover{color:#9ccaff;text-shadow:none}
+.contactIcon{filter:none}
+.socialIcon{background:rgba(120,183,255,.08);border:1px solid rgba(120,183,255,.22);color:#9bcaff}
+.socialIcon svg{filter:none}
+.socialIcon:hover{background:rgba(120,183,255,.16);border-color:rgba(120,183,255,.5);box-shadow:none}
+.socialIcon:hover svg{filter:none}
+.copyright{color:#8194ab}
