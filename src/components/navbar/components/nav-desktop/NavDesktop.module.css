@@ -209,3 +209,12 @@
     display: none;
   }
 }
+
+/* Refined desktop navigation */
+.navbar__desktop_view_container{background:rgba(6,14,25,.96);border-bottom:1px solid rgba(137,177,222,.15);backdrop-filter:blur(16px)}
+.navbar__desktop_view_container::before{background:linear-gradient(90deg,transparent,rgba(120,183,255,.35),transparent);animation:none}
+.company_logo_wrapper{filter:none}
+.company_logo_wrapper:hover{filter:drop-shadow(0 0 10px rgba(120,183,255,.22))}
+.create_account_button_wrapper button{background:#78b7ff!important;color:#071526!important;border:1px solid #78b7ff!important;border-radius:7px!important;box-shadow:none!important;text-shadow:none!important;font-family:"DM Sans",sans-serif!important;letter-spacing:0!important}
+.create_account_button_wrapper button:hover{background:#a0ceff!important;border-color:#a0ceff!important;box-shadow:none!important;text-shadow:none!important}
+.create_account_button_wrapper button::before{display:none}
