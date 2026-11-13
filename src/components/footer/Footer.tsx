@@ -19,12 +19,11 @@ function Footer() {
           <div className={styles.footerColumn}>
             <h3 className={styles.footerHeading}>About hiregeekhacker</h3>
             <p className={styles.footerText}>
-              hiregeekhacker is a global cybersecurity and fund recovery service
-              provider specializing in cryptocurrency recovery, digital
-              forensics, and private investigation. We help victims of online
-              fraud reclaim their assets through expert investigation and
-              recovery operations. Available 24/7 to serve clients worldwide
-              with complete confidentiality.
+              Hiregeekhacker provides digital investigation and cybersecurity
+              support, including digital forensics, online fraud research,
+              cryptocurrency tracing, data recovery, and device security
+              guidance. Each enquiry is reviewed to clarify the available
+              information, appropriate scope, and practical next steps.
             </p>
           </div>
 
@@ -40,10 +39,10 @@ function Footer() {
                       {link.name}
                     </Link>
                   ) : (
-                    <a href={`#${link.path}`} className={styles.footerLink}>
+                    <Link to={`/#${link.path}`} className={styles.footerLink}>
                       <span className={styles.linkIcon}>›</span>
                       {link.name}
-                    </a>
+                    </Link>
                   )}
                 </div>
               ))}
