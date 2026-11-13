@@ -11,6 +11,7 @@ function NavLinks({ allNavLinks, closeMenu }: IProps) {
   // Function to handle smooth scrolling to a section
   const handleScrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
+    if (!section) { window.location.href = `/#${sectionId}`; if (closeMenu) closeMenu(); return; }
     if (section) {
       // Get navbar height to offset the scroll
       const navbarHeight = 64; // Mobile navbar height in pixels (6.4rem = 64px)
