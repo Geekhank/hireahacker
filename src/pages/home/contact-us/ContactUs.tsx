@@ -49,7 +49,7 @@ const ContactUs: React.FC = () => {
                 </div>
                 <h4 className={styles.contactTitle}>Email Us</h4>
                 <a 
-                  href="mailto:soniahelps20@gmail.com" 
+                  href="mailto:geekhankhacker@gmail.com" 
                   className={styles.contactLink}
                 >
                   Geekhankhacker@gmail.com
@@ -62,12 +62,12 @@ const ContactUs: React.FC = () => {
                 <div className={styles.iconCircle}>
                   <span className={styles.icon}>📞</span>
                 </div>
-                <h4 className={styles.contactTitle}>Call Us</h4>
+                <h4 className={styles.contactTitle}>WhatsApp Us</h4>
                 <a 
-                  href="tel:+17576788036" 
+                  href="https://wa.me/14126284979" target="_blank" rel="noopener noreferrer" 
                   className={styles.contactLink}
                 >
-                  +1 213 7685189
+                  +1 (412) 628-4979
                 </a>
                 <div className={styles.cardGlow}></div>
               </div>
