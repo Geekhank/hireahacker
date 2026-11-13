@@ -40,7 +40,7 @@ const services = [
   {
     icon: "♡",
     title: "Cheating Spouse Investigation Support",
-    description: "Discreet guidance for documenting concerns, reviewing information you are legally authorized to access, and organizing digital evidence. We do not access private accounts, intercept communications, or track someone without authorization.",
+    description: "Discreet guidance for documenting concerns, reviewing information you are legally authorized to access, and organizing digital evidence.",
   },
 ];
 
