@@ -26,7 +26,6 @@ const testimonials = [
 const Testimonials = () => (
   <section className={styles.section} aria-labelledby="testimonials-heading">
     <div className={styles.inner}>
-      <span className={styles.eyebrow}>Submitted feedback · Unverified</span>
       <h2 className={styles.heading} id="testimonials-heading">Experiences shared by individuals</h2>
       <p className={styles.intro}>A selection of feedback supplied for publication.</p>
       <div className={styles.grid}>
