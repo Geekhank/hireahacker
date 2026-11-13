@@ -11,6 +11,7 @@ function NavLinks({ allNavLinks }: IProps) {
 
   const handleScrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
+    if (!section) { window.location.href = `/#${sectionId}`; return; }
     if (section) {
       // Get navbar height to offset the scroll
       const navbarHeight = 88; // 8.8rem = 88px (adjust if your navbar height is different)
