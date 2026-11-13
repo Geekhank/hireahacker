@@ -56,15 +56,15 @@ function Footer() {
             
             <div className={styles.contactItem}>
               <span className={styles.contactIcon}>✉️</span>
-              <a href="mailto:Geekhankhacker@gmail.com" className={styles.contactLink}>
+              <a href="mailto:geekhankhacker@gmail.com" className={styles.contactLink}>
                 Geekhankhacker@gmail.com
               </a>
             </div>
 
             <div className={styles.contactItem}>
               <span className={styles.contactIcon}>📞</span>
-              <a href="tel:+17576788036" className={styles.contactLink}>
-                +1 213 768 5189
+              <a href="https://wa.me/14126284979" target="_blank" rel="noopener noreferrer" className={styles.contactLink}>
+                +1 (412) 628-4979
               </a>
             </div>
 
