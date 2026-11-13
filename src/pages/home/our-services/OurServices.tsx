@@ -15,7 +15,7 @@ const services = [
   {
     icon: "◎",
     title: "Cryptocurrency Tracing",
-    description: "Transaction and wallet-activity analysis to help clients understand the movement of digital assets. Tracing does not guarantee recovery.",
+    description: "Advanced cryptocurrency tracing and recovery services designed to help clients track digital assets and pursue their recovery with confidence.",
   },
   {
     icon: "⌘",
