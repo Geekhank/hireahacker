@@ -85,7 +85,7 @@ function Footer() {
         <div className={styles.footerBottom}>
           <div className={styles.socialLinks}>
             <a
-              href="https://t.me/Geekhankhacker"
+              href="https://t.me/Geekhank"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.socialIcon}
