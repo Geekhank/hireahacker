@@ -1,103 +1,68 @@
-import React from 'react';
-import styles from './HowItWorks.module.css';
+import React from "react";
+import styles from "./HowItWorks.module.css";
+
+const initialSteps = [
+  "Tell us what happened and what outcome you are seeking.",
+  "Share only information you are authorized to provide.",
+  "Review the proposed scope, limitations, and next steps before work begins.",
+];
+
+const deliverySteps = [
+  "Review the available information and relevant digital evidence.",
+  "Explain findings in clear, understandable language.",
+  "Provide practical recommendations based on the evidence and agreed scope.",
+];
 
 const HowItWorks: React.FC = () => {
-  const recoveryServices = [
-    'Investigations',
-    'Uncover The Truth',
-    'Vulnerability Assessment',
-    'Risk Management',
-    'Funds Litigation',
-    'Recovery',
-  ];
-
-  const hackingServices = [
-    'Experienced Hackers',
-    'We are anonymous',
-    'We do care about people\'s problems',
-    
-  ];
-
   return (
     <section id="how-it-works" className={styles.howItWorksSection}>
-      {/* Background effects */}
-      <div className={styles.backgroundEffects}>
+      <div className={styles.backgroundEffects} aria-hidden="true">
         <div className={styles.gridPattern}></div>
         <div className={styles.glowOrb1}></div>
         <div className={styles.glowOrb2}></div>
         <div className={styles.scanlineEffect}></div>
       </div>
-
       <div className={styles.container}>
         <div className={styles.contentWrapper}>
-          {/* Header */}
           <div className={styles.header}>
-            <h1 className={styles.heading}>How It Works</h1>
+            <h2 className={styles.heading}>How It Works</h2>
             <span className={styles.accentLine}></span>
           </div>
-
-          {/* Two column content */}
           <div className={styles.contentGrid}>
-            {/* Left Column - Funds and Data Recovery */}
             <div className={styles.contentColumn}>
-              <h2 className={styles.columnHeading}>Funds and Data Recovery</h2>
-              
+              <h3 className={styles.columnHeading}>1. Understand the situation</h3>
               <p className={styles.paragraph}>
-                Are you looking for the best professional hackers online? Your
-                search ends right here with us. We are a vibrant squad of dedicated
-                online hackers maintaining the highest standards and unparalleled
-                professionalism in every aspect. In this online world there is
-                nothing that we cannot hack. Having years of experience in serving
-                customers with professional hacking services, we have mastered them
-                all. We help you to recover the password of your email, Facebook or
-                any other accounts. Our team accepts all types of hacking orders and
-                deliver assured results to alleviate your agonies and anxieties. Our
-                main areas of expertise include but is never confined to:
+                Every enquiry starts with a conversation about the issue,
+                information available, and the help being requested. We explain
+                what may be possible, what is outside our scope, and what
+                authorization may be needed.
               </p>
-
               <ul className={styles.servicesList}>
-                {recoveryServices.map((service, index) => (
-                  <li key={index} className={styles.serviceItem}>
-                    <span className={styles.checkIcon}>✓</span>
-                    <span>{service}</span>
+                {initialSteps.map((step) => (
+                  <li key={step} className={styles.serviceItem}>
+                    <span className={styles.checkIcon} aria-hidden="true">✓</span>
+                    <span>{step}</span>
                   </li>
                 ))}
               </ul>
             </div>
-
-            {/* Right Column - Hacking Services */}
             <div className={styles.contentColumn}>
-              <h2 className={styles.columnHeading}>Hacking Services</h2>
-
+              <h3 className={styles.columnHeading}>2. Review and report</h3>
               <p className={styles.paragraph}>
-                We are the greatest team of Professional hackers in the world and
-                are experienced in dealing with targets, we are anonymous but we do
-                care about peoples problems.
+                Once the scope is agreed and the required authorization is in
+                place, we review the available material and communicate the
+                results. Findings depend on the evidence and access lawfully
+                available; no recovery or investigation outcome is guaranteed.
               </p>
-
-              {/* Decorative tech image placeholder */}
-              <div className={styles.imageContainer}>
-                <div className={styles.techImage}>
-                  <div className={styles.imageOverlay}>
-                    <div className={styles.codeLine}>&gt; system.access()</div>
-                    <div className={styles.codeLine}>&gt; authenticate.user()</div>
-                    <div className={styles.codeLine}>&gt; decrypt.data()</div>
-                    <div className={styles.statusIndicator}>
-                      <span className={styles.statusDot}></span>
-                      <span>ONLINE</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
               <ul className={styles.servicesList}>
-                {hackingServices.map((service, index) => (
-                  <li key={index} className={styles.serviceItem}>
-                    <span className={styles.checkIcon}>✓</span>
-                    <span>{service}</span>
+                {deliverySteps.map((step) => (
+                  <li key={step} className={styles.serviceItem}>
+                    <span className={styles.checkIcon} aria-hidden="true">✓</span>
+                    <span>{step}</span>
                   </li>
                 ))}
               </ul>
+              <a href="#contact-us" className={styles.ctaButton}>Discuss your case</a>
             </div>
           </div>
         </div>
